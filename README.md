@@ -1,5 +1,5 @@
-trjmh
-=====
+sup
+===
 
 A simple translation of Persian (Farsi) in Arabic script (with some
 extra letters) to Latin (roman) characters. It uses an many-to-one
@@ -31,7 +31,11 @@ Usage:
 
 This script is written in Python 3 and you need Python 3 for using it.
 
+~~~~~
+
 >>> import simple_unipers
 >>> example = "فارسی"
 >>> print(simple_unipers.deromanize(example))
 farsi
+
+~~~~~
