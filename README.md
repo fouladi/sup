@@ -82,9 +82,23 @@ This script is written in Python 3 and you need Python 3 for using it.
 
 ~~~~~
 
->>> import simple_unipers
+>>> from simple_unipers import deromanize
 >>> example = "فارسی"
 >>> print(simple_unipers.deromanize(example))
 farsi
+>>> xiam = """
+... در کارگه کوزه گری رفتم دوش
+...  دیدم دو هزار کوزه گویا و خموش
+... ناگاه یکی کوزه براورد خروش
+... کو کوزه گر و کوزه خر و کوزه فروش
+... """
+>>> print(deromanize(xiam))
+
+dr kargh kuzh gri rftm duš
+ didm du hzar kuzh guia u xmuš
+nagah iki kuzh braurd xruš
+ku kuzh gr u kuzh xr u kuzh fruš
+
+>>> 
 
 ~~~~~
