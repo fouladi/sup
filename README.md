@@ -1,4 +1,4 @@
-sup
+SUP
 ===
 
 A simple translation of Persian (Farsi) in Arabic script (with some
@@ -74,6 +74,12 @@ The main limitation of this kind of "transliterartion" is its
 irreversibility. It means, after converting a word to the target format
 (SUP), the information to converting it back, is lost.
 
+But someone who can read Persian with Arabic characters, can correctly
+guess the word in SUP.
+
+A database with hash values of Persian words (with Arabic letters) as
+index in a table, could be used for a reverse mapping of a SUP word to
+original Persian word (in Arabic letters).
 
 Usage:
 ------
@@ -84,7 +90,7 @@ This script is written in Python 3 and you need Python 3 for using it.
 
 >>> from simple_unipers import deromanize
 >>> example = "فارسی"
->>> print(simple_unipers.deromanize(example))
+>>> print(deromanize(example))
 farsi
 >>> xiam = """
 ... در کارگه کوزه گری رفتم دوش
