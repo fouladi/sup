@@ -17,6 +17,55 @@ intermediate format for other algorithms to further modifications or
 normalization, or it may be used in current form for short messages
 systems (like SMS) or for logging in an limited embedded system.
 
+Mapping:
+--------
+
+The following table shows the mapping of Extended Arabic characters to
+their corresponding Latin char.
+
+
+Extended Arabic | Latin
+----------------|------
+   ع            |   '
+   ،            |   ,
+   ۱            |   1
+   ۲            |   2
+   ۳            |   3
+   ۴            |   4
+   ۵            |   5
+   ۶            |   6
+   ۷            |   7
+   ۸            |   8
+   ۹            |   9
+   ؛            |   ;
+   ؟            |   ?
+   آ   ا        |   a
+   ب            |   b
+   چ            |   c
+   د            |   d
+   ف            |   f
+   گ            |   g
+   ه  ح         |   h
+   ی            |   i
+   ج            |   j
+   ک            |   k
+   ل            |   l
+   م            |   m
+   ن            |   n
+   پ            |   p
+   غ  ق         |   q
+   ر            |   r
+   ث   س   ص    |   s
+   ت   ط        |   t
+   و            |   u
+   خ            |   x
+   ظ ز  ض   ذ   |   z
+   ش            |   š
+   ڎ            |   ž
+
+These Latin-1 characters are not mapped:
+
+    e o v w 
 
 Limitation:
 -----------

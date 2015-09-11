@@ -95,7 +95,7 @@ multi_map = str.maketrans({
     arab_lam   : 'l',
     arab_meem  : 'm',
     arab_noon  : 'n',
-    arab_waw   : 'w',
+    arab_waw   : 'u',
     arab_heh   : 'h',
     arab_yeh   : 'i',
     arab_quest : '?',
