@@ -4,7 +4,7 @@ sup
 A simple translation of Persian (Farsi) in Arabic script (with some
 extra letters) to Latin (roman) characters. It uses an many-to-one
 mapping between an Arabic characters and their roman correspond. I call
-the target format SUP (Simple UniPers). I got this idea after reading
+the target format **SUP** (`Simple UniPers`). I got this idea after reading
 about `UniPers` in `Wikipedia`.
 
 The Persian (in Arabic script) is written from right to left and the
