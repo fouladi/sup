@@ -7,7 +7,7 @@
 #   arabic chars can be mapped to one roman char.
 #
 #   The input text should be in persian "utf-8" with extended arabic alphabet.
-#   The output text will be in roman characters. 
+#   The output text will be in roman characters.
 # Author: Farhad Fouladi 2015
 
 # A_hat = '\N{LATIN CAPITAL LETTER A WITH CIRCUMFLEX}'
@@ -112,9 +112,11 @@ multi_map = str.maketrans({
     arab_9: '9',
 })
 
+
 def deromanize(txt):
     """replace persian symbols with roman chars"""
     return txt.translate(multi_map)
+
 
 if __name__ == '__main__':
     example = "فارسی باستان در کنار زبان اوستایی تنها زبانهای ایرانی دوران کهن هستند که متن یا کتیبههایی از آنها به جا مانده است."
